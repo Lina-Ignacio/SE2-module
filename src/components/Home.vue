@@ -1,3 +1,8 @@
+<script setup>
+  import SE2Photo from "../assets/SE2-photo.png"
+</script>
+
+
 <template>
   <div class="background">
     <!-- Navigation Bar -->
@@ -15,7 +20,7 @@
     <div class="content">
       <div class="image-wrapper">
         <img
-          src="https://www.ksotl.com/hosted/images/17/654ba7a9f046938e1a886958de671e/maxresdefault.jpg"
+          :src="SE2Photo"
           alt="Software Engineering"
           class="image"
         />
